@@ -1,4 +1,13 @@
-# 比较运算符和逻辑运算符的使用
+'''
+Author: jasonbu163 jasonbu163@163.com
+Date: 2022-06-16 22:49:38
+LastEditors: jasonbu163 jasonbu163@163.com
+LastEditTime: 2022-06-17 16:29:49
+FilePath: \Python_learning_Core_code\Day002\example05.py
+Description: 比较运算符和逻辑运算符的使用
+
+Copyright (c) 2022 by jasonbu163 jasonbu163@163.com, All Rights Reserved. 
+'''
 
 flag0 = 1 == 1
 flag1 = 3 > 2
