@@ -5,13 +5,13 @@
 
 - 官网：https://code.visualstudio.com/（点链接时按下Ctrl，不会覆盖当前页面哦^-^）
 
-![img](vscode下载.png)
+![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/vscode下载.png)
 
  
 
 - 安装VScode（建议附加任务全部勾选）
 
-![img](vscode安装.gif)
+![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/vscode安装.gif)
 
  
 
@@ -21,7 +21,7 @@
 - 下载页面：https://www.python.org/downloads/windows/
 - 本次以`Python 3.9.12-Windows-installer(64-bit)`为例子
 
-![img](解释器下载.png)
+![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/解释器下载.png)
 
 > 如你因网络环境无法顺利下载，这里提供了我所下载的解释器
 >
@@ -33,7 +33,7 @@
 
 - 打开安装包，务必勾选 `Add Python 3.9 to PATH`，点击`Install Now`，安装完毕后点击`close`退出
 
-  ![img](Python安装.png)
+  ![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/Python安装.png)
 
  
 
@@ -41,9 +41,9 @@
 
 - 打开VScode分别安装两个插件 `Chinese` 和 `Python` 等待安装完毕后重启VScode
 
-![img](插件下载.png)
+![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/插件下载.png)
 
-![img](插件python.png)
+![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/插件python.png)
 
  
 
@@ -55,7 +55,7 @@
 print('点赞不要钱，投币您看着来')
 ```
 
-![img](py运行代码.gif)
+![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/py运行代码.gif)
 
  
 
@@ -64,7 +64,7 @@ print('点赞不要钱，投币您看着来')
   - 将侧边菜单栏，切换至`运行和调试`点击`创建launch.json文件`点击`Python文件 调试打开.....`选项
   - 自动跳转至的文件中，将值`integratedTerminal`改为`externalTerminal`，并保存
 
-  ![img](py外部运行.png)
+  ![img](https://github.com/jasonbu163/Python_learning/tree/master/Python_in_VScode/img/py外部运行.png)
 
  
 
