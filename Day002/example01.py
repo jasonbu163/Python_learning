@@ -11,6 +11,7 @@ Copyright (c) 2022 by jasonbu163 jasonbu163@163.com, All Rights Reserved.
 
 a = 321
 b = 12
+
 print(a + b) #333
 print(a - b) #309
 print(a * b) #3852

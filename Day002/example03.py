@@ -2,7 +2,7 @@
 Author: jasonbu163 jasonbu163@163.com
 Date: 2022-06-16 22:49:38
 LastEditors: jasonbu163 jasonbu163@163.com
-LastEditTime: 2022-06-17 16:28:58
+LastEditTime: 2022-06-17 16:42:49
 FilePath: \Python_learning_Core_code\Day002\example03.py
 Description: 
     使用input()函数获取键盘输入(字符串)
@@ -25,3 +25,8 @@ print('%d ** %d = %d' % (a, b, a ** b))
 
 # **	幂 - 返回x的y次幂	a**b 为10的20次方， 输出结果 100000000000000000000
 # //	取整除 - 返回商的整数部分（向下取整），如： 9//2 = 4， -9//2 = -5
+
+a1 = float(input('a1 = '))
+b2 = float(input('b2 = '))
+
+print('%.3f + %.3f = %.2f' % (a1, b2, a1 + b2))
