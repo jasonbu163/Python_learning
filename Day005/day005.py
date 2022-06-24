@@ -1,8 +1,19 @@
+'''
+Author: jasonbu163 jasonbu163@163.com
+Date: 2022-05-25 12:08:47
+LastEditors: jasonbu163 jasonbu163@163.com
+LastEditTime: 2022-06-24 20:50:56
+FilePath: \Python_learning_Core_code\Day005\day005.py
+Description: 
+
+Copyright (c) 2022 by jasonbu163 jasonbu163@163.com, All Rights Reserved. 
+'''
 #  Craps赌博游戏
 # 我们设定玩家开始游戏时有1000元的赌注
 # 游戏结束的条件是玩家输光所有的赌注
-""" 
+
 from random import randint
+
 # 初始赌注为1000，并且判断是否打空头支票
 money = 1000
 while money > 0:
@@ -38,4 +49,3 @@ while money > 0:
         else:
             needs_go_on = True
 print('你破产了，游戏结束！！！')
- """
