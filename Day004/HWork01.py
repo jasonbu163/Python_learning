@@ -1,16 +1,16 @@
 '''
 Author: jasonbu163 jasonbu163@163.com
-Date: 2022-06-23 15:46:47
+Date: 2022-06-24 20:31:45
 LastEditors: jasonbu163 jasonbu163@163.com
-LastEditTime: 2022-06-23 15:46:52
-FilePath: \Python_learning_Core_code\Day003\example09.py
+LastEditTime: 2022-06-24 20:45:37
+FilePath: \Python_learning_Core_code\Day004\HWork01.py
 Description: 猜数字游戏
 
 Copyright (c) 2022 by jasonbu163 jasonbu163@163.com, All Rights Reserved. 
 '''
 import random
 
-answer = random.randint(1, 100)
+answer = random.randrange(1, 101)
 counter = 0
 while True:
     counter += 1

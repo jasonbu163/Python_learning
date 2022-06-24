@@ -2,7 +2,7 @@
 Author: jasonbu163 jasonbu163@163.com
 Date: 2022-06-23 23:40:12
 LastEditors: jasonbu163 jasonbu163@163.com
-LastEditTime: 2022-06-23 23:50:04
+LastEditTime: 2022-06-24 20:29:35
 FilePath: \Python_learning_Core_code\Day004\example07.py
 Description: 五人捕鱼
 
@@ -18,12 +18,20 @@ C、D、E依次醒来, 也按同样的方法拿鱼。
 
 Copyright (c) 2022 by jasonbu163 jasonbu163@163.com, All Rights Reserved. 
 '''
-
+fish = 6
 while True:
-    fish = 1
     is_enough = True
+
+    # 检查目前的鱼的数量够不够五个人分
+    total = fish
+    for _ in range(5):
+        if (total - 1) % 5 == 0:
+           total = (total - 1) // 5 * 4
+        else:
+            is_enough = False
+            break
 
     if is_enough:
         print(fish)
         break
-    fish += 1
+    fish += 5 
