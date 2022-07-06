@@ -51,7 +51,8 @@ list5 = [1, 3, 5, 7]
 list6 = [4, 4, 8]
 # list5 = list5 + list6
 list6 += list5
-print(list5)
+# list6.extend(list5)
+print(list6)
 
 # 比较
 list7 = list(range(1, 8, 2))
